@@ -30,9 +30,9 @@ karma start
 ```
 
 Todo -
-1. Look at rendering performance of topic cloud
-2. Improve test coverage
-3. Work on better scale for topic sizing within the cloud
+* Look at rendering performance of topic cloud
+* Improve test coverage
+* Work on better scale for topic sizing within the cloud
 
 References -
 [http://stackoverflow.com/questions/342687/algorithm-to-implement-a-word-cloud-like-wordle]
