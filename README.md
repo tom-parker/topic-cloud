@@ -3,31 +3,31 @@
 Topic Cloud application built using backbone, bower and webpack. Testing with Karma and Jasmine.
 
 Required -
-'''
+```
 webpack
 bower
 karma
-'''
+```
 
 Installing dependencies -
-'''
+```
 npm install && bower install
-'''
+```
 
 To run -
-'''
+```
 grunt
-'''
+```
 
 You can create a production bundle.js file using the following -
-'''
+```
 grunt build
-'''
+```
 
 Tests can be run with -
-'''
+```
 karma start
-'''
+```
 
 Todo -
 1. Look at rendering performance of topic cloud
