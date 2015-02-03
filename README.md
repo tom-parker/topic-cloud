@@ -17,6 +17,8 @@ npm install && bower install
 To run -
 ```
 grunt
+// And visit
+http://localhost:9001
 ```
 
 You can create a production bundle.js file using the following -
