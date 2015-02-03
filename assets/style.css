@@ -1,0 +1,44 @@
+body {
+  margin: 50px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+.topic-cloud {
+  float: left;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  bottom: 20px;
+  right: 30%; }
+
+.meta {
+  float: right;
+  width: 25%; }
+  .meta__sentiment--positive {
+    color: green; }
+  .meta__sentiment--negative {
+    color: red; }
+  .meta__sentiment--neutral {
+    color: #888; }
+
+.topic {
+  position: absolute;
+  left: 0;
+  top: 0; }
+  .topic--positive {
+    color: green; }
+  .topic--negative {
+    color: red; }
+  .topic--neutral {
+    color: #888; }
+  .topic--vol1 {
+    font-size: 14px; }
+  .topic--vol2 {
+    font-size: 18px; }
+  .topic--vol3 {
+    font-size: 24px; }
+  .topic--vol4 {
+    font-size: 30px; }
+  .topic--vol5 {
+    font-size: 36px; }
+  .topic--vol6 {
+    font-size: 42px; }

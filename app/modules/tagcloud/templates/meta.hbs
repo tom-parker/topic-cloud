@@ -1,0 +1,11 @@
+<p>Information about topic <strong class="meta__topic">{{ topic }}</strong></p>
+<p>Total mentions {{ mentions }}</p>
+{{#if sentiment.positive}}
+<p>Positive mentions <span class="meta__sentiment--positive">{{ sentiment.positive }}</span></p>
+{{/if}}
+{{#if sentiment.neutral}}
+<p>Neutral mentions <span class="meta__sentiment--neutral">{{ sentiment.neutral }}</span></p>
+{{/if}}
+{{#if sentiment.negative}}
+<p>Negative mentions <span class="meta__sentiment--negative">{{ sentiment.negative }}</span></p>
+{{/if}}

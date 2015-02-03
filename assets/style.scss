@@ -1,0 +1,58 @@
+body {
+	margin: 50px;
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+.topic-cloud {
+	float: left;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	bottom: 20px;
+	right: 30%;
+}
+.meta {
+	float: right;
+	width: 25%;
+	&__sentiment--positive {
+		color: green;
+	}
+	&__sentiment--negative {
+		color: red;
+	}
+	&__sentiment--neutral {
+		color: #888;
+	}
+}
+.topic {
+	position: absolute;
+	left: 0;
+	top: 0;
+	&--positive {
+		color: green;
+	}
+	&--negative {
+		color: red;
+	}
+	&--neutral {
+		color: #888;
+	}
+	&--vol1 {
+		font-size: 14px;
+	}
+	&--vol2 {
+		font-size: 18px;
+	}
+	&--vol3 {
+		font-size: 24px;
+	}
+	&--vol4 {
+		font-size: 30px;
+	}
+	&--vol5 {
+		font-size: 36px;
+	}
+	&--vol6 {
+		font-size: 42px;
+	}
+}
+
